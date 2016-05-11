@@ -2,23 +2,25 @@ body {
     background-color: snow;
     font-family: 'Playfair Display', serif;
     box-sizing: border-box;
+    
 }
 
 h1 {
     text-align: center;
-   
+    
 }
 
 
 
 
 .group {
-    background-color: yellow;
+    background-color: cornsilk;
     border: 1px solid black;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 10px;
     margin-bottom: 20px;
     width: 90%;
+    
     
    
 }
@@ -34,13 +36,30 @@ h3 {
     
 }
 
+.satu h3 {
+    background-color: yellow;
+}
+
+.dua h3 {
+    background-color: deeppink;
+    
+    
+}
+
+.tiga h3 {
+    background-color: orangered;
+    
+}
 
 .box {
     padding: 20px;
     margin-top: 50px;
     
     
+    
 }
+
+
 
 .container {
     width: 100%;
