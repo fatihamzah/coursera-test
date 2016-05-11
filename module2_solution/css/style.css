@@ -1,75 +1,229 @@
 body {
+    background-color: snow;
     font-family: 'Playfair Display', serif;
     box-sizing: border-box;
 }
 
 h1 {
     text-align: center;
+   
 }
 
-.bungkus {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.kotak {
-    background-color: greenyellow;
+
+
+.group {
+    background-color: yellow;
+    border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    width: 90%;
     
-    
-    
+   
 }
 
-p  {
-    
+h3 {
+    position: relative;
+    float: right;
+    display: inline;
     padding: 10px;
+    margin-top: 0px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    
 }
 
-.indomie, .bayem, .taucho {
-        width: 100%;
-       
-    }   
+
+.box {
+    padding: 20px;
+    margin-top: 50px;
+    
+    
+}
+
+.container {
+    width: 100%;
+    
+  
+}
 
 /** media query **/
 
-@media screen and (min-width: 992px) {
-    .indomie, .bayem, .taucho {
+@media (min-width: 992px) {
+    
+    .kol-lg-1, .kol-lg-2, .kol-lg-3, .kol-lg-4, .kol-lg-5, .kol-lg-6, .kol-lg-7, .kol-lg-8, .kol-lg-9, .kol-lg-10, .kol-lg-11, .kol-lg-12 {
+        float: left;
+    }
+    
+    .kol-lg-1 {
+        width: 8.33%;
+    }
+    
+    .kol-lg-2 {
+        width: 16.66%;
+    }
+    
+    .kol-lg-3 {
+        width: 25%;
+    }
+    
+    .kol-lg-4 {
         width: 33.33%;
-        margin-left: auto;
-        margin-right: auto;
-    }   
+    }
     
-    .bungkus {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-}
+    .kol-lg-5 {
+        width: 41.66%;
+    }
     
-}
-   
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .indomie, .bayem, {
+    .kol-lg-6 {
         width: 50%;
-        
-    }   
+    }
     
-    .taucho {
+    .kol-lg-7 {
+        width: 58.33%;
+    }
+    
+    .kol-lg-8 {
+        width: 66.66%;
+    }
+    
+    .kol-lg-9 {
+        width: 75%;
+    }
+    
+    .kol-lg-10 {
+        width: 83.33%;
+    }
+    
+    .kol-lg-11 {
+        width: 91.66%;
+    }
+    
+    .kol-lg-12 {
         width: 100%;
-        
     }
     
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
-    .indomie, .bayem, .taucho {
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .kol-md-1, .kol-md-2, .kol-md-3, .kol-md-4, .kol-md-5, .kol-md-6, .kol-md-7, .kol-md-8, .kol-md-9, .kol-md-10, .kol-md-11, .kol-md-12 {
+        float: left;
+    }
+    
+    .kol-md-1 {
+        width: 8.33%;
+    }
+    
+    .kol-md-2 {
+        width: 16.66%;
+    }
+    
+    .kol-md-3 {
+        width: 25%;
+    }
+    
+    .kol-md-4 {
+        width: 33.33%;
+    }
+    
+    .kol-md-5 {
+        width: 41.66%;
+    }
+    
+    .kol-md-6 {
+        width: 50%;
+    }
+    
+    .kol-md-7 {
+        width: 58.33%;
+    }
+    
+    .kol-md-8 {
+        width: 66.66%;
+    }
+    
+    .kol-md-9 {
+        width: 75%;
+    }
+    
+    .kol-md-10 {
+        width: 83.33%;
+    }
+    
+    .kol-md-11 {
+        width: 91.66%;
+    }
+    
+    .kol-md-12 {
         width: 100%;
-       
-    }   
+    }
+    
     
 }
+
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+    
+    .kol-sm-1, .kol-sm-2, .kol-sm-3, .kol-sm-4, .kol-sm-5, .kol-sm-6, .kol-sm-7, .kol-sm-8, .kol-sm-9, .kol-sm-10, .kol-sm-11, .kol-sm-12 {
+        float: left;
+    }
+    
+    .kol-sm-1 {
+        width: 8.33%;
+    }
+    
+    .kol-sm-2 {
+        width: 16.66%;
+    }
+    
+    .kol-sm-3 {
+        width: 25%;
+    }
+    
+    .kol-sm-4 {
+        width: 33.33%;
+    }
+    
+    .kol-sm-5 {
+        width: 41.66%;
+    }
+    
+    .kol-sm-6 {
+        width: 50%;
+    }
+    
+    .kol-sm-7 {
+        width: 58.33%;
+    }
+    
+    .kol-sm-8 {
+        width: 66.66%;
+    }
+    
+    .kol-sm-9 {
+        width: 75%;
+    }
+    
+    .kol-sm-10 {
+        width: 83.33%;
+    }
+    
+    .kol-sm-11 {
+        width: 91.66%;
+    }
+    
+    .kol-sm-12 {
+        width: 100%;
+    }
+    
+
+}
+
+
+/** ----- **/
 
 
 
