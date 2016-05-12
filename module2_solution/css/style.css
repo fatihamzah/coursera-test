@@ -17,13 +17,15 @@ h1 {
     background-color: cornsilk;
     border: 1px solid black;
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: auto;
     margin-bottom: 20px;
     width: 90%;
-    
-    
-   
+      
 }
+
+
+
+
 
 h3 {
     position: relative;
@@ -148,6 +150,10 @@ h3 {
     
     .kol-md-1, .kol-md-2, .kol-md-3, .kol-md-4, .kol-md-5, .kol-md-6, .kol-md-7, .kol-md-8, .kol-md-9, .kol-md-10, .kol-md-11, .kol-md-12 {
         float: left;
+    }
+    
+    .tiga, .kol-md-12 {
+    width: 95%;
     }
     
     .kol-md-1 {
