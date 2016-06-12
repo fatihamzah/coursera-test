@@ -1,0 +1,47 @@
+html {
+    background-color: black;
+}
+
+body {
+    
+    background-color: black;
+}
+
+main.row {
+    
+}
+
+main.row h1 {
+    margin: 50px auto;
+    margin-top: 100px;
+    letter-spacing: 4px;
+    color: aliceblue;
+}
+
+main.row .artikel {
+    background-color: deepskyblue;
+    
+    margin-bottom: 100px;
+    
+}
+
+main section > h2 {
+    padding: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+main.row .box {
+    padding: 20px;
+}
+
+main.row .backtop {
+    color: aliceblue; 
+    border: 1px solid white;
+    padding: 5px;
+}
+
+main.row .backtop:hover {
+    background-color: yellow;
+    color: black;
+}
